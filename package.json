@@ -1,0 +1,21 @@
+{
+  "name": "react-native-printer-qr",
+  "version": "1.0.0",
+  "description": "A React Native Library to support USB/BLE/Net printer for Android platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "buffer": "^5.0.7",
+    "escpos-printer-toolkit": "^1.0.8",
+    "iconv-lite": "^0.4.19",
+    "string_decoder": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:a9657630/react-native-printer-qr.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
