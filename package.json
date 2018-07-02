@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:a9657630/react-native-printer-qr.git"
+    "url": "https://github.com/a9657630/react-native-printer-qr.git"
   },
   "author": "",
   "license": "ISC"
