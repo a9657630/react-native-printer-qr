@@ -20,7 +20,8 @@ public class RNPrinterPackage implements ReactPackage {
                 new RNUSBPrinterModule(reactContext),
                 new RNBLEPrinterModule(reactContext),
                 new RNNetPrinterModule(reactContext),
-                new RNNetPrinter(reactContext),
+                // new RNNetPrinter(reactContext),
+                new ReactNativePrinterModule(reactContext),
         });
     }
 

@@ -5,7 +5,7 @@ import EPToolkit from 'escpos-printer-toolkit';
 var RNUSBPrinter = NativeModules.RNUSBPrinter;
 var RNBLEPrinter = NativeModules.RNBLEPrinter;
 var RNNetPrinter = NativeModules.RNNetPrinter;
-var Printer = NativeModules.NetPrinter;
+// var Printer = NativeModules.NetPrinter;
 
 
 var textTo64Buffer = (text) => {
@@ -95,5 +95,9 @@ export const NetPrinter = {
 
   printBill: (text) => RNNetPrinter.printRawData(billTo64Buffer(text), (error) => console.warn(error)), 
 
-  printMessage: (ip, port, text) => Printer.printMessage(ip, port, text), 
+  // printMessage: (ip, port, text) => Printer.printMessage(ip, port, text), 
+}
+
+export const ReactNativePrinter = {
+  print: (ip, port, text) => NativeModules.ReactNativePrinter.print(ip, port, text),
 }
