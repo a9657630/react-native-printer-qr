@@ -23,6 +23,6 @@ react-native link react-native-printer-qr
 ```javascript
 import { ReactNativePrinter } from 'react-native-printer';
 
-ReactNativePrinter.print(192.168.31.242, 9100, '<CB>这是一个标题</CB>')
+ReactNativePrinter.print('192.168.31.242', 9100, '<CB>这是一个标题</CB>')
 
 ```
