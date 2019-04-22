@@ -1,6 +1,6 @@
 # react-native-printer
 
-A React Native Library to support USB/BLE/Net printer for Android platform 
+A React Native Library to support Net printer for Android/iOS platform 
 
 ## Installation
 
@@ -21,7 +21,7 @@ react-native link react-native-printer-qr
 ## Usage
 
 ```javascript
-import { ReactNativePrinter } from 'react-native-printer';
+import { ReactNativePrinter } from 'react-native-printer-qr';
 
 ReactNativePrinter.print('192.168.31.242', 9100, '<CB>这是一个标题</CB>')
 
