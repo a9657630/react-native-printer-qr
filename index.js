@@ -51,6 +51,8 @@ export const USBPrinter = {
   printText: (text) => RNUSBPrinter.printRawData(textTo64Buffer(text), (error) => console.warn(error)),
 
   printBill: (text) => RNUSBPrinter.printRawData(billTo64Buffer(text), (error) => console.warn(error)),
+
+  printBase64: (text) => RNUSBPrinter.printRawData(text, (error) => console.warn(error)),
 }
 
 
@@ -75,6 +77,8 @@ export const BLEPrinter = {
   printText: (text) => RNBLEPrinter.printRawData(textTo64Buffer(text), (error) => console.warn(error)),
 
   printBill: (text) => RNBLEPrinter.printRawData(billTo64Buffer(text), (error) => console.warn(error)), 
+
+  printBase64: (text) => RNBLEPrinter.printRawData(text, (error) => console.warn(error)), 
 }
 
 export const NetPrinter = {
@@ -94,6 +98,8 @@ export const NetPrinter = {
   printText: (text) => RNNetPrinter.printRawData(textTo64Buffer(text), (error) => console.warn(error)),
 
   printBill: (text) => RNNetPrinter.printRawData(billTo64Buffer(text), (error) => console.warn(error)), 
+
+  printBase64: (text) => RNNetPrinter.printRawData(text, (error) => console.warn(error)), 
 
   // printMessage: (ip, port, text) => Printer.printMessage(ip, port, text), 
 }
