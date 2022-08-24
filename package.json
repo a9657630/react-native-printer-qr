@@ -1,6 +1,6 @@
 {
   "name": "react-native-printer-qr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A React Native Library to support USB/BLE/Net printer for Android platform",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/a9657630/react-native-printer-qr.git"
   },
-  "author": "",
+  "author": "a9657630 <https://github.com/a9657630>",
+  "contributors": ["Vicary A. <vicary.archangel@member.mensa.org>"],
   "license": "ISC"
 }
